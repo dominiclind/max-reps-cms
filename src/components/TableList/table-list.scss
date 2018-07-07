@@ -1,0 +1,34 @@
+.table-list{
+
+}
+
+.table-list__header{
+	background: #F1F3F5;
+	display:flex;
+	padding:0 1em;
+	font-size:0.8em;
+
+	&__col{
+		flex:1;
+		text-transform: uppercase;
+	}
+}
+
+.table-list__item{
+
+	&__content{
+		display:flex;
+		text-decoration: none;
+		border-bottom:1px solid #F1F3F5;
+		transition: all 400ms ease;
+		color: #495057;
+
+		&:hover{
+			background: #F1F3F5;
+		}
+
+		&__col,{
+			flex:1;
+		}
+	}
+}
