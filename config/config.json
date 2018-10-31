@@ -1,0 +1,21 @@
+{
+	"logo_url" : URL_TO_LOGO_IMAGE,
+	"firebase": {
+		"dev": {
+      "apiKey": "AIzaSyDewAPSfzjYg1yy2z2wz8D2TDZgovGYsLI",
+      "authDomain": "max-reps-73455.firebaseapp.com",
+      "databaseURL": "https://max-reps-73455.firebaseio.com",
+      "projectId": "max-reps-73455",
+      "storageBucket": "max-reps-73455.appspot.com",
+      "messagingSenderId": "918562408360"
+		},
+		"production": {
+      "apiKey": "AIzaSyDewAPSfzjYg1yy2z2wz8D2TDZgovGYsLI",
+      "authDomain": "max-reps-73455.firebaseapp.com",
+      "databaseURL": "https://max-reps-73455.firebaseio.com",
+      "projectId": "max-reps-73455",
+      "storageBucket": "max-reps-73455.appspot.com",
+      "messagingSenderId": "918562408360"
+		}
+	}
+}
