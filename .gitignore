@@ -40,4 +40,4 @@ dist
 .DS_Store
 
 # Config
-config/config.json
+# config/config.json
