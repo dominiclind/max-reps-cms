@@ -1,7 +1,7 @@
 export default {
   name: "Exercise",
   slug: "exercise",
-  ui: ["name", "reps", "bodyparts"],
+  ui: ["name", "bodypart", "category"],
   fields: [
     {
       label: "Name",
@@ -10,23 +10,32 @@ export default {
       required: true
     },
     {
-      label: "Reps",
-      name: "reps",
-      type: "reps",
+      label: "Bodyparts",
+      name: "bodypart",
+      type: "reference",
+      referenceModel: "bodypart",
+      referenceSearchLabel: "name",
       required: true
     },
     // {
-    //   label: "Allowed users",
-    //   name: "allowed-users",
-    //   type: "reference",
-    //   referenceModel: "user",
-    //   referenceSearchLabel: "username",
+    //   label: "Bodyparts",
+    //   name: "bodyparts",
+    //   type: "tags",
     //   required: true
     // },
     {
-      label: "Bodyparts",
-      name: "bodyparts",
-      type: "tags",
+      label: "Category",
+      name: "category",
+      type: "select",
+      values: [
+        "Barbell",
+        "Dumbbell",
+        "Machine / Other",
+        "Weighted Bodyweight",
+        "Assisted Bodyweight",
+        "Reps Only",
+        "Cardio"
+      ],
       required: true
     }
   ]
